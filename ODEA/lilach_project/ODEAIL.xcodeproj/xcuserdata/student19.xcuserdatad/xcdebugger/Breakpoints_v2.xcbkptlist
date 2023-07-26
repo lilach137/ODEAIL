@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A8BCE47F-10C8-4326-9E06-59FCF75D8D7C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E29CDB8A-B77E-4645-AF7D-3363DE941AFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/Views/CartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "FE3519D4-6F1E-45E6-8E61-549F5DFFC03E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "71CD0AAA-9041-4E87-A9B2-F0B396AF3AA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F38E878E-D35C-437F-B137-2E2D61BC19A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F38E878E-D35C-437F-B137-2E2D61BC19A4 - 4aca33045c48685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "3248">
+               </Location>
+               <Location
+                  uuid = "F38E878E-D35C-437F-B137-2E2D61BC19A4 - 4aca33045c48685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "3308">
+               </Location>
+               <Location
+                  uuid = "F38E878E-D35C-437F-B137-2E2D61BC19A4 - 4aca33045c48685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "3188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "068415AF-57B7-4E54-9E79-FA9171F1A473"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "068415AF-57B7-4E54-9E79-FA9171F1A473 - 4aca33045c48710"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "068415AF-57B7-4E54-9E79-FA9171F1A473 - 4aca33045c48710"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2133C2EC-FFDD-4BFF-9AE7-9D9A96A5C703"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "485D126F-7E83-4257-9E48-399BDBEA750C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E9BB5A9-50F9-4872-93AD-ED3D808EA43F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E9BB5A9-50F9-4872-93AD-ED3D808EA43F - 4aca33045c487f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "9E9BB5A9-50F9-4872-93AD-ED3D808EA43F - 4aca33045c487f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE6DA348-14B1-4A1F-BD4F-83EF784484D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE3EC26C-B1E9-4CFD-A44D-2D408DD8FA05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchOrders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE3EC26C-B1E9-4CFD-A44D-2D408DD8FA05 - 4aca33045c4862e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1976">
+               </Location>
+               <Location
+                  uuid = "CE3EC26C-B1E9-4CFD-A44D-2D408DD8FA05 - 4aca33045c4862e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ODEAIL.RecentsOrdersViewModel.fetchOrders() -&gt; ()"
+                  moduleName = "ODEAIL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student19/Downloads/lilach_project/ODEAIL/ViewModel/RecentsOrdersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

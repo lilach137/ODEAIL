@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8EAD9C72A6A968400C48061 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8EAD9C62A6A968400C48061 /* GoogleService-Info.plist */; };
+		C47E0A0A2A7012B200818B4E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E0A092A7012B200818B4E /* DataManager.swift */; };
+		F958D8702A695432003180B7 /* ODEAILApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D86F2A695432003180B7 /* ODEAILApp.swift */; };
+		F958D8742A695433003180B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D8732A695433003180B7 /* Assets.xcassets */; };
+		F958D8772A695433003180B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F958D8762A695433003180B7 /* Preview Assets.xcassets */; };
+		F958D8812A695433003180B7 /* ODEAILTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8802A695433003180B7 /* ODEAILTests.swift */; };
+		F958D88B2A695433003180B7 /* ODEAILUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D88A2A695433003180B7 /* ODEAILUITests.swift */; };
+		F958D88D2A695433003180B7 /* ODEAILUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D88C2A695433003180B7 /* ODEAILUITestsLaunchTests.swift */; };
+		F958D89B2A695A02003180B7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F958D89A2A695A02003180B7 /* FirebaseAuth */; };
+		F958D89D2A695A02003180B7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F958D89C2A695A02003180B7 /* FirebaseFirestore */; };
+		F958D89F2A695A02003180B7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F958D89E2A695A02003180B7 /* FirebaseFirestoreSwift */; };
+		F958D8A22A695A66003180B7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8A12A695A66003180B7 /* LoginViewModel.swift */; };
+		F958D8A42A695A94003180B7 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8A32A695A94003180B7 /* SignUpViewModel.swift */; };
+		F958D8A62A695AA8003180B7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8A52A695AA8003180B7 /* MainViewModel.swift */; };
+		F958D8AD2A695B78003180B7 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8AC2A695B78003180B7 /* ProductCard.swift */; };
+		F958D8AF2A695B88003180B7 /* ProductInCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8AE2A695B88003180B7 /* ProductInCart.swift */; };
+		F958D8B12A695BB0003180B7 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8B02A695BB0003180B7 /* CartButton.swift */; };
+		F958D8B32A695BC4003180B7 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8B22A695BC4003180B7 /* PrimaryButton.swift */; };
+		F958D8B52A695BD7003180B7 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8B42A695BD7003180B7 /* PopUpView.swift */; };
+		F958D8B72A695BE7003180B7 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8B62A695BE7003180B7 /* OrderView.swift */; };
+		F958D8BA2A695C56003180B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8B92A695C56003180B7 /* ContentView.swift */; };
+		F958D8BC2A695C5F003180B7 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8BB2A695C5F003180B7 /* CartView.swift */; };
+		F958D8BE2A695C7E003180B7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8BD2A695C7E003180B7 /* SignUpView.swift */; };
+		F958D8C02A695C8C003180B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8BF2A695C8C003180B7 /* MainView.swift */; };
+		F958D8C22A695CA7003180B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8C12A695CA7003180B7 /* LoginView.swift */; };
+		F958D8C42A695CB1003180B7 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8C32A695CB1003180B7 /* ShopView.swift */; };
+		F958D8C62A695CC3003180B7 /* RecentsOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8C52A695CC3003180B7 /* RecentsOrdersView.swift */; };
+		F958D8C92A695D21003180B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8C82A695D21003180B7 /* User.swift */; };
+		F958D8CB2A695D31003180B7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8CA2A695D31003180B7 /* Product.swift */; };
+		F958D8CD2A695D39003180B7 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8CC2A695D39003180B7 /* Order.swift */; };
+		F958D8D42A696B2D003180B7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958D8D32A696B2D003180B7 /* Extentions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F958D87D2A695433003180B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F958D8642A695432003180B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F958D86B2A695432003180B7;
+			remoteInfo = ODEAIL;
+		};
+		F958D8872A695433003180B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F958D8642A695432003180B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F958D86B2A695432003180B7;
+			remoteInfo = ODEAIL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8EAD9C62A6A968400C48061 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C47E0A092A7012B200818B4E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F958D86C2A695432003180B7 /* ODEAIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODEAIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D86F2A695432003180B7 /* ODEAILApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODEAILApp.swift; sourceTree = "<group>"; };
+		F958D8732A695433003180B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F958D8762A695433003180B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F958D87C2A695433003180B7 /* ODEAILTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODEAILTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D8802A695433003180B7 /* ODEAILTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODEAILTests.swift; sourceTree = "<group>"; };
+		F958D8862A695433003180B7 /* ODEAILUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODEAILUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F958D88A2A695433003180B7 /* ODEAILUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODEAILUITests.swift; sourceTree = "<group>"; };
+		F958D88C2A695433003180B7 /* ODEAILUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODEAILUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F958D8A12A695A66003180B7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F958D8A32A695A94003180B7 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		F958D8A52A695AA8003180B7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F958D8AC2A695B78003180B7 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		F958D8AE2A695B88003180B7 /* ProductInCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInCart.swift; sourceTree = "<group>"; };
+		F958D8B02A695BB0003180B7 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		F958D8B22A695BC4003180B7 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		F958D8B42A695BD7003180B7 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		F958D8B62A695BE7003180B7 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		F958D8B92A695C56003180B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F958D8BB2A695C5F003180B7 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		F958D8BD2A695C7E003180B7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F958D8BF2A695C8C003180B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F958D8C12A695CA7003180B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F958D8C32A695CB1003180B7 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		F958D8C52A695CC3003180B7 /* RecentsOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsOrdersView.swift; sourceTree = "<group>"; };
+		F958D8C82A695D21003180B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F958D8CA2A695D31003180B7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F958D8CC2A695D39003180B7 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F958D8D32A696B2D003180B7 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F958D8692A695432003180B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D89B2A695A02003180B7 /* FirebaseAuth in Frameworks */,
+				F958D89D2A695A02003180B7 /* FirebaseFirestore in Frameworks */,
+				F958D89F2A695A02003180B7 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D8792A695433003180B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D8832A695433003180B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F958D8632A695432003180B7 = {
+			isa = PBXGroup;
+			children = (
+				F958D86E2A695432003180B7 /* ODEAIL */,
+				F958D87F2A695433003180B7 /* ODEAILTests */,
+				F958D8892A695433003180B7 /* ODEAILUITests */,
+				F958D86D2A695432003180B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F958D86D2A695432003180B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F958D86C2A695432003180B7 /* ODEAIL.app */,
+				F958D87C2A695433003180B7 /* ODEAILTests.xctest */,
+				F958D8862A695433003180B7 /* ODEAILUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F958D86E2A695432003180B7 /* ODEAIL */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8D22A696B0F003180B7 /* Tools */,
+				F958D8C72A695D08003180B7 /* Models */,
+				F958D8B82A695C3C003180B7 /* Views */,
+				F958D8AB2A695B59003180B7 /* Compomemts */,
+				F958D8A02A695A2F003180B7 /* ViewModel */,
+				F958D86F2A695432003180B7 /* ODEAILApp.swift */,
+				F958D8732A695433003180B7 /* Assets.xcassets */,
+				F958D8752A695433003180B7 /* Preview Content */,
+			);
+			path = ODEAIL;
+			sourceTree = "<group>";
+		};
+		F958D8752A695433003180B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8762A695433003180B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F958D87F2A695433003180B7 /* ODEAILTests */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8802A695433003180B7 /* ODEAILTests.swift */,
+			);
+			path = ODEAILTests;
+			sourceTree = "<group>";
+		};
+		F958D8892A695433003180B7 /* ODEAILUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F958D88A2A695433003180B7 /* ODEAILUITests.swift */,
+				F958D88C2A695433003180B7 /* ODEAILUITestsLaunchTests.swift */,
+			);
+			path = ODEAILUITests;
+			sourceTree = "<group>";
+		};
+		F958D8A02A695A2F003180B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8A12A695A66003180B7 /* LoginViewModel.swift */,
+				F958D8A32A695A94003180B7 /* SignUpViewModel.swift */,
+				F958D8A52A695AA8003180B7 /* MainViewModel.swift */,
+				C47E0A092A7012B200818B4E /* DataManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F958D8AB2A695B59003180B7 /* Compomemts */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8B62A695BE7003180B7 /* OrderView.swift */,
+				F958D8AC2A695B78003180B7 /* ProductCard.swift */,
+				F958D8AE2A695B88003180B7 /* ProductInCart.swift */,
+				F958D8B02A695BB0003180B7 /* CartButton.swift */,
+				F958D8B22A695BC4003180B7 /* PrimaryButton.swift */,
+				F958D8B42A695BD7003180B7 /* PopUpView.swift */,
+			);
+			path = Compomemts;
+			sourceTree = "<group>";
+		};
+		F958D8B82A695C3C003180B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8B92A695C56003180B7 /* ContentView.swift */,
+				F958D8BB2A695C5F003180B7 /* CartView.swift */,
+				F958D8BD2A695C7E003180B7 /* SignUpView.swift */,
+				F958D8BF2A695C8C003180B7 /* MainView.swift */,
+				F958D8C12A695CA7003180B7 /* LoginView.swift */,
+				F958D8C32A695CB1003180B7 /* ShopView.swift */,
+				F958D8C52A695CC3003180B7 /* RecentsOrdersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F958D8C72A695D08003180B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F958D8C82A695D21003180B7 /* User.swift */,
+				F958D8CA2A695D31003180B7 /* Product.swift */,
+				F958D8CC2A695D39003180B7 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F958D8D22A696B0F003180B7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A8EAD9C62A6A968400C48061 /* GoogleService-Info.plist */,
+				F958D8D32A696B2D003180B7 /* Extentions.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F958D86B2A695432003180B7 /* ODEAIL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D8902A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAIL" */;
+			buildPhases = (
+				F958D8682A695432003180B7 /* Sources */,
+				F958D8692A695432003180B7 /* Frameworks */,
+				F958D86A2A695432003180B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODEAIL;
+			packageProductDependencies = (
+				F958D89A2A695A02003180B7 /* FirebaseAuth */,
+				F958D89C2A695A02003180B7 /* FirebaseFirestore */,
+				F958D89E2A695A02003180B7 /* FirebaseFirestoreSwift */,
+			);
+			productName = ODEAIL;
+			productReference = F958D86C2A695432003180B7 /* ODEAIL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F958D87B2A695433003180B7 /* ODEAILTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D8932A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAILTests" */;
+			buildPhases = (
+				F958D8782A695433003180B7 /* Sources */,
+				F958D8792A695433003180B7 /* Frameworks */,
+				F958D87A2A695433003180B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F958D87E2A695433003180B7 /* PBXTargetDependency */,
+			);
+			name = ODEAILTests;
+			productName = ODEAILTests;
+			productReference = F958D87C2A695433003180B7 /* ODEAILTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F958D8852A695433003180B7 /* ODEAILUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F958D8962A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAILUITests" */;
+			buildPhases = (
+				F958D8822A695433003180B7 /* Sources */,
+				F958D8832A695433003180B7 /* Frameworks */,
+				F958D8842A695433003180B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F958D8882A695433003180B7 /* PBXTargetDependency */,
+			);
+			name = ODEAILUITests;
+			productName = ODEAILUITests;
+			productReference = F958D8862A695433003180B7 /* ODEAILUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F958D8642A695432003180B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F958D86B2A695432003180B7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F958D87B2A695433003180B7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F958D86B2A695432003180B7;
+					};
+					F958D8852A695433003180B7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F958D86B2A695432003180B7;
+					};
+				};
+			};
+			buildConfigurationList = F958D8672A695432003180B7 /* Build configuration list for PBXProject "ODEAIL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F958D8632A695432003180B7;
+			packageReferences = (
+				F958D8992A695A02003180B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = F958D86D2A695432003180B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F958D86B2A695432003180B7 /* ODEAIL */,
+				F958D87B2A695433003180B7 /* ODEAILTests */,
+				F958D8852A695433003180B7 /* ODEAILUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F958D86A2A695432003180B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D8772A695433003180B7 /* Preview Assets.xcassets in Resources */,
+				A8EAD9C72A6A968400C48061 /* GoogleService-Info.plist in Resources */,
+				F958D8742A695433003180B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D87A2A695433003180B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D8842A695433003180B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F958D8682A695432003180B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D8B32A695BC4003180B7 /* PrimaryButton.swift in Sources */,
+				F958D8BA2A695C56003180B7 /* ContentView.swift in Sources */,
+				F958D8C42A695CB1003180B7 /* ShopView.swift in Sources */,
+				F958D8CB2A695D31003180B7 /* Product.swift in Sources */,
+				F958D8702A695432003180B7 /* ODEAILApp.swift in Sources */,
+				F958D8AF2A695B88003180B7 /* ProductInCart.swift in Sources */,
+				F958D8A42A695A94003180B7 /* SignUpViewModel.swift in Sources */,
+				F958D8A22A695A66003180B7 /* LoginViewModel.swift in Sources */,
+				F958D8BC2A695C5F003180B7 /* CartView.swift in Sources */,
+				C47E0A0A2A7012B200818B4E /* DataManager.swift in Sources */,
+				F958D8B72A695BE7003180B7 /* OrderView.swift in Sources */,
+				F958D8C62A695CC3003180B7 /* RecentsOrdersView.swift in Sources */,
+				F958D8C02A695C8C003180B7 /* MainView.swift in Sources */,
+				F958D8C22A695CA7003180B7 /* LoginView.swift in Sources */,
+				F958D8A62A695AA8003180B7 /* MainViewModel.swift in Sources */,
+				F958D8BE2A695C7E003180B7 /* SignUpView.swift in Sources */,
+				F958D8B52A695BD7003180B7 /* PopUpView.swift in Sources */,
+				F958D8AD2A695B78003180B7 /* ProductCard.swift in Sources */,
+				F958D8D42A696B2D003180B7 /* Extentions.swift in Sources */,
+				F958D8CD2A695D39003180B7 /* Order.swift in Sources */,
+				F958D8B12A695BB0003180B7 /* CartButton.swift in Sources */,
+				F958D8C92A695D21003180B7 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D8782A695433003180B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D8812A695433003180B7 /* ODEAILTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F958D8822A695433003180B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958D88D2A695433003180B7 /* ODEAILUITestsLaunchTests.swift in Sources */,
+				F958D88B2A695433003180B7 /* ODEAILUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F958D87E2A695433003180B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F958D86B2A695432003180B7 /* ODEAIL */;
+			targetProxy = F958D87D2A695433003180B7 /* PBXContainerItemProxy */;
+		};
+		F958D8882A695433003180B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F958D86B2A695432003180B7 /* ODEAIL */;
+			targetProxy = F958D8872A695433003180B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F958D88E2A695433003180B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F958D88F2A695433003180B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F958D8912A695433003180B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ODEAIL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAIL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F958D8922A695433003180B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ODEAIL/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAIL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F958D8942A695433003180B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAILTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODEAIL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ODEAIL";
+			};
+			name = Debug;
+		};
+		F958D8952A695433003180B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAILTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODEAIL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ODEAIL";
+			};
+			name = Release;
+		};
+		F958D8972A695433003180B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAILUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ODEAIL;
+			};
+			name = Debug;
+		};
+		F958D8982A695433003180B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilach-Yuval.ODEAILUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ODEAIL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F958D8672A695432003180B7 /* Build configuration list for PBXProject "ODEAIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D88E2A695433003180B7 /* Debug */,
+				F958D88F2A695433003180B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D8902A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D8912A695433003180B7 /* Debug */,
+				F958D8922A695433003180B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D8932A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAILTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D8942A695433003180B7 /* Debug */,
+				F958D8952A695433003180B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F958D8962A695433003180B7 /* Build configuration list for PBXNativeTarget "ODEAILUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F958D8972A695433003180B7 /* Debug */,
+				F958D8982A695433003180B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F958D8992A695A02003180B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F958D89A2A695A02003180B7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F958D8992A695A02003180B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F958D89C2A695A02003180B7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F958D8992A695A02003180B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F958D89E2A695A02003180B7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F958D8992A695A02003180B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F958D8642A695432003180B7 /* Project object */;
+}
